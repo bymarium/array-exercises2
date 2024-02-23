@@ -24,3 +24,7 @@ U
 %src/exercices/exercise8/RowTotal.java,7\8\78408e5c1b3ffe4cf78ea56f8626e3022940d98d
 G
 src/exercices/Menu.java,3\e\3e169fef58e1eb79e37fc0d0009e160d9e17ab18
+T
+$src/exercices/exercise9/Average.java,8\a\8a263af58dd8785493448259be4391b3c4ccf9b8
+Z
+*src/exercices/exercise10/LargerNumber.java,3\7\37ac24a93ec5306e32b55385aa7d7c03cefc15df
