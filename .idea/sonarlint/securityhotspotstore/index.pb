@@ -38,3 +38,5 @@ X
 +src/exercices/exercise5/MatrixToVector.java,e\3\e3b0571175f53687f32a325ef9a44711281e70f2
 W
 'src/exercices/exercise6/VectorSums.java,7\9\79f020e836d058a069fe41991dab86f7dd331a59
+Z
+*src/exercices/exercise7/NumberCounter.java,d\b\db26399edf41d672006ca969e2a3ac70260ba741
