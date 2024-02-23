@@ -32,3 +32,13 @@ Y
 )src/exercices/exercise11/PrimeNumber.java,a\7\a7bdd10b0c03f031f0d3415d90e37486ca33a115
 ^
 .src/exercices/exercise12/OddAndEvenNumber.java,8\c\8cd4b7bbafdc3af57c2d1339f43db039fa9d9da0
+[
++src/exercices/exercise13/UpperDiagonal.java,6\d\6d56f7051b6a019e5d986d129859f026a3dee8d9
+M
+src/exercices/exercise14.java,5\6\5617d7b229fdd1c1bd2eeb56032a6a4a44faff51
+X
+(src/exercices/exercise14/exercise14.java,0\d\0dbdb103df282d2382772fadd95fd8d83034d477
+\
+,src/exercices/exercise14/identityMatrix.java,9\d\9dbbc3d9144dbd2b4d0ae29f7fc127c70d0515f2
+\
+,src/exercices/exercise14/IdentityMatrix.java,f\d\fd05758402a2fa1de0bd92ad7ba14445f90b01d8

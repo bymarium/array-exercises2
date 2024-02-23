@@ -4,6 +4,8 @@ import exercices.exercise1.SumOfNumber;
 import exercices.exercise10.LargerNumber;
 import exercices.exercise11.PrimeNumber;
 import exercices.exercise12.OddAndEvenNumber;
+import exercices.exercise13.UpperDiagonal;
+import exercices.exercise14.IdentityMatrix;
 import exercices.exercise2.PositionNumber;
 import exercices.exercise3.SumOfRowsAndColumns;
 import exercices.exercise4.ColumnTotal;
@@ -29,7 +31,8 @@ public class Menu {
             "\n11. Buscar la cantidad de numeros primos " +
             "\n12. Hallar los numeros pares e impares " +
             "\n13. Imprimir la diagonal superior " +
-            "\n14. Salir");
+            "\n14. Imprimir matriz identidad " +
+            "\n15. Salir");
   }
 
   public int getOption() {
@@ -115,9 +118,16 @@ public class Menu {
         selectOption();
         break;
       case 13:
+        UpperDiagonal upperDiagonal = new UpperDiagonal();
+        numbers = matrix.fillMatrix(matrix.size());
+        upperDiagonal.printToDiagonal(numbers);
         selectOption();
         break;
       case 14:
+        IdentityMatrix identityMatrix = new IdentityMatrix();
+        identityMatrix.fillMatrix(matrix.size());
+        break;
+      case 15:
         break;
       default:
         System.out.println("Opción invalida");
