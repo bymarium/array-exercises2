@@ -5,7 +5,7 @@ import exercices.Matrix;
 public class PositionNumber {
   private final Matrix matrix = new Matrix();
 
-  public int findNumberPosition(int[][] numbers) {
+  public void findNumberPosition(int[][] numbers) {
     int majorNumber = 0;
     int row = 0;
     int column = 0;
@@ -21,8 +21,6 @@ public class PositionNumber {
     }
     System.out.println("El número mayor de la matriz es: " + majorNumber + " y su posición es: " + "[" + row + ", " + column + "]");
     matrix.showMatrix(numbers);
-
-    return 0;
   }
 
 }
