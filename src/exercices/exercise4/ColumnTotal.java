@@ -8,7 +8,7 @@ public class ColumnTotal {
   private final SumOfRowsAndColumns sumOfRowsAndColumns = new SumOfRowsAndColumns();
 
 
-  public void majorColumn() {
+  public void findMajorColumn() {
     int[][] matrixNumbers = matrix.fillMatrix(matrix.size());
     matrix.showMatrix(matrixNumbers);
     int[] vectorColumns = sumOfRowsAndColumns.addColumns(matrixNumbers);

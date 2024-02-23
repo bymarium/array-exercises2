@@ -34,3 +34,7 @@ X
 0src/exercices/exercise3/SumOfRowsAndColumns.java,6\7\67ea844c48639c8a7b44014b8aef61e0d617370d
 X
 (src/exercices/exercise4/ColumnTotal.java,3\6\36e05d3de0bbcb778b6bc8df1d09ac1620a8ae34
+[
++src/exercices/exercise5/MatrixToVector.java,e\3\e3b0571175f53687f32a325ef9a44711281e70f2
+W
+'src/exercices/exercise6/VectorSums.java,7\9\79f020e836d058a069fe41991dab86f7dd331a59

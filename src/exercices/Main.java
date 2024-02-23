@@ -2,7 +2,9 @@ package exercices;
 
 import exercices.exercise3.SumOfRowsAndColumns;
 import exercices.exercise4.ColumnTotal;
+import exercices.exercise5.MatrixToVector;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Main {
@@ -10,9 +12,14 @@ public class Main {
 
 
   public static void main(String[] args) {
-    final ColumnTotal columnTotal = new ColumnTotal();
+    final MatrixToVector matrixToVector = new MatrixToVector();
+    final Matrix matrix = new Matrix();
 
-    columnTotal.majorColumn();
+    int[][] numbers = matrix.fillMatrix(matrix.size());
+    matrix.showMatrix(numbers);
+
+    int[] vector = matrixToVector.convertMatrixToVector(numbers);
+    System.out.println("Vector:" + Arrays.toString(vector));
 
   }
 
