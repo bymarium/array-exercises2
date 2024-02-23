@@ -19,8 +19,8 @@ public class PositionNumber {
 
       }
     }
-    System.out.println("El número mayor de la matriz es: " + majorNumber + " y su posición es: " + "[" + (row + 1) + ", " + (column + 1) + "]");
     matrix.showMatrix(numbers);
+    System.out.println("El número mayor de la matriz es: " + majorNumber + " y su posición es: " + "[" + (row + 1) + ", " + (column + 1) + "]");
   }
 
 }

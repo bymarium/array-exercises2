@@ -2,6 +2,8 @@ package exercices.exercise5;
 
 import exercices.Matrix;
 
+import java.util.Arrays;
+
 public class MatrixToVector {
   private final Matrix matrix = new Matrix();
 
@@ -15,6 +17,8 @@ public class MatrixToVector {
         index++;
       }
     }
+    matrix.showMatrix(numbers);
+    System.out.println("La matriz convertida en vector es: \n" + Arrays.toString(vectorNumbers));
     return vectorNumbers;
   }
 }

@@ -16,6 +16,7 @@ public class SumOfRowsAndColumns {
       }
       addRow[i] = add;
     }
+    matrix.showMatrix(numbers);
     System.out.println("\nEl vector resultante de la suma de las filas es: " + Arrays.toString(addRow));
     return addRow;
   }

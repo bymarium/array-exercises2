@@ -10,7 +10,6 @@ public class RowTotal {
 
   public void findMajorRow() {
     int[][] matrixNumbers = matrix.fillMatrix(matrix.size());
-    matrix.showMatrix(matrixNumbers);
     int[] vectorRows = sumOfRowsAndColumns.addRows(matrixNumbers);
 
     int major = 0;
