@@ -6,7 +6,7 @@ import java.util.Arrays;
 
 public class SumOfRowsAndColumns {
   private final Matrix matrix = new Matrix();
-  public void addRows(int[][] numbers) {
+  public int[] addRows(int[][] numbers) {
     int[] addRow = new int[numbers.length];
 
     for (int i = 0; i < numbers.length; i++) {
@@ -17,6 +17,7 @@ public class SumOfRowsAndColumns {
       addRow[i] = add;
     }
     System.out.println("\nEl vector resultante de la suma de las filas es: " + Arrays.toString(addRow));
+    return addRow;
   }
 
   public int[] addColumns(int[][] numbers) {
