@@ -40,3 +40,5 @@ W
 'src/exercices/exercise6/VectorSums.java,7\9\79f020e836d058a069fe41991dab86f7dd331a59
 Z
 *src/exercices/exercise7/NumberCounter.java,d\b\db26399edf41d672006ca969e2a3ac70260ba741
+U
+%src/exercices/exercise8/RowTotal.java,7\8\78408e5c1b3ffe4cf78ea56f8626e3022940d98d
