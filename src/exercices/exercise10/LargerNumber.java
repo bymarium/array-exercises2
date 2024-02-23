@@ -13,6 +13,7 @@ public class LargerNumber {
       for (int j = 0; j < numbers[i].length; j++) {
         if (numbers[i][j] > major) {
           major = numbers[i][j];
+          index = 1;
         } else if (numbers[i][j] == major) {
           index++;
         }

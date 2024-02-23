@@ -3,6 +3,7 @@ package exercices;
 import exercices.exercise1.SumOfNumber;
 import exercices.exercise10.LargerNumber;
 import exercices.exercise11.PrimeNumber;
+import exercices.exercise12.OddAndEvenNumber;
 import exercices.exercise2.PositionNumber;
 import exercices.exercise3.SumOfRowsAndColumns;
 import exercices.exercise4.ColumnTotal;
@@ -108,6 +109,9 @@ public class Menu {
         selectOption();
         break;
       case 12:
+        OddAndEvenNumber oddAndEvenNumber = new OddAndEvenNumber();
+        numbers = matrix.fillMatrix(matrix.size());
+        oddAndEvenNumber.findEvenNumber(numbers);
         selectOption();
         break;
       case 13:

@@ -10,7 +10,7 @@ public class Matrix {
     int[][] numbers = new int[size][size];
     for (int i = 0; i < numbers.length; i++) {
       for (int j = 0; j < numbers[i].length; j++) {
-        numbers[i][j] = (int) (Math.random() * 10+ 1);
+        numbers[i][j] = (int) (Math.random() * 10 + 1);
       }
     }
     return numbers;

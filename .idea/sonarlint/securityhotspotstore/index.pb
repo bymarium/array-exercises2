@@ -30,3 +30,5 @@ Z
 *src/exercices/exercise10/LargerNumber.java,3\7\37ac24a93ec5306e32b55385aa7d7c03cefc15df
 Y
 )src/exercices/exercise11/PrimeNumber.java,a\7\a7bdd10b0c03f031f0d3415d90e37486ca33a115
+^
+.src/exercices/exercise12/OddAndEvenNumber.java,8\c\8cd4b7bbafdc3af57c2d1339f43db039fa9d9da0
