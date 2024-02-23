@@ -1,6 +1,7 @@
 package exercices;
 
 import exercices.exercise1.SumOfNumber;
+import exercices.exercise10.LargerNumber;
 import exercices.exercise2.PositionNumber;
 import exercices.exercise3.SumOfRowsAndColumns;
 import exercices.exercise4.ColumnTotal;
@@ -94,6 +95,9 @@ public class Menu {
         selectOption();
         break;
       case 10:
+        LargerNumber largerNumber = new LargerNumber();
+        numbers = matrix.fillMatrix(matrix.size());
+        largerNumber.getHigherNumber(numbers);
         selectOption();
         break;
       case 11:
