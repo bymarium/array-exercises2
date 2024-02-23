@@ -2,6 +2,8 @@ package exercices.exercise3;
 
 import exercices.Matrix;
 
+import java.util.Arrays;
+
 public class SumOfRowsAndColumns {
   private final Matrix matrix = new Matrix();
   public void addRows(int[][] numbers) {
@@ -14,19 +16,19 @@ public class SumOfRowsAndColumns {
       }
       addRow[i] = add;
     }
-    System.out.println("El vector resultante de la suma de las filas es: " + matrix.showVector(addRow));
+    System.out.println("\nEl vector resultante de la suma de las filas es: " + Arrays.toString(addRow));
   }
 
   public void addColumns(int[][] numbers) {
-    int[] addColumn = new int[numbers.length];
+    int[] addColumn = new int[numbers[0].length];
 
     for (int i = 0; i < numbers[0].length; i++) {
       int add = 0;
       for (int j = 0; j < numbers.length; j++) {
-        add += numbers[i][j];
+        add += numbers[j][i];
       }
       addColumn[i] = add;
     }
-    System.out.println("El vector resultante de la suma de las columnas es: " + matrix.showVector(addColumn));
+    System.out.println("\nEl vector resultante de la suma de las columnas es: " + Arrays.toString(addColumn));
   }
 }
