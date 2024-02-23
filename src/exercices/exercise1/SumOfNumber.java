@@ -2,9 +2,8 @@ package exercices.exercise1;
 
 import exercices.Matrix;
 
-public class SumOfAddition {
-  private class SumOfNumbers {
-    public final Matrix matrix = new Matrix();
+public class SumOfNumber {
+    private final Matrix matrix = new Matrix();
     public int numberAddition(int[][] numbers) {
       int add = 0;
 
@@ -19,4 +18,4 @@ public class SumOfAddition {
       return add;
     }
   }
-}
+

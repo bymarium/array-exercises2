@@ -26,3 +26,7 @@ I
 :
 
 .gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
+X
+(src/exercices/exercise1/SumOfNumber.java,2\f\2fb917edacae4336d6c841d26141e3797f4dcf50
+[
++src/exercices/exercise2/PositionNumber.java,5\d\5d3176b469b0dc9c0eec324982d4cb9cb5b7e72c
