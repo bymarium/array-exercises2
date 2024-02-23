@@ -19,7 +19,7 @@ public class SumOfRowsAndColumns {
     System.out.println("\nEl vector resultante de la suma de las filas es: " + Arrays.toString(addRow));
   }
 
-  public void addColumns(int[][] numbers) {
+  public int[] addColumns(int[][] numbers) {
     int[] addColumn = new int[numbers[0].length];
 
     for (int i = 0; i < numbers[0].length; i++) {
@@ -30,5 +30,6 @@ public class SumOfRowsAndColumns {
       addColumn[i] = add;
     }
     System.out.println("\nEl vector resultante de la suma de las columnas es: " + Arrays.toString(addColumn));
+    return addColumn;
   }
 }

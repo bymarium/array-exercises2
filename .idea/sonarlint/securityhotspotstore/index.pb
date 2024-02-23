@@ -32,3 +32,5 @@ X
 +src/exercices/exercise2/PositionNumber.java,5\d\5d3176b469b0dc9c0eec324982d4cb9cb5b7e72c
 `
 0src/exercices/exercise3/SumOfRowsAndColumns.java,6\7\67ea844c48639c8a7b44014b8aef61e0d617370d
+X
+(src/exercices/exercise4/ColumnTotal.java,3\6\36e05d3de0bbcb778b6bc8df1d09ac1620a8ae34

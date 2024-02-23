@@ -29,12 +29,4 @@ public class Matrix {
 
     return matrix;
   }
-
-  public int[] showVector(int[] vector) {
-    for (int i = 0; i < vector.length; i++) {
-      System.out.print(" " + vector[i] + "\t");
-    }
-    return vector;
-  }
-
 }
