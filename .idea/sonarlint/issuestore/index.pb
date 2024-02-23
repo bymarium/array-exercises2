@@ -28,3 +28,5 @@ T
 $src/exercices/exercise9/Average.java,8\a\8a263af58dd8785493448259be4391b3c4ccf9b8
 Z
 *src/exercices/exercise10/LargerNumber.java,3\7\37ac24a93ec5306e32b55385aa7d7c03cefc15df
+Y
+)src/exercices/exercise11/PrimeNumber.java,a\7\a7bdd10b0c03f031f0d3415d90e37486ca33a115
